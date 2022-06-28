@@ -25,6 +25,9 @@
 .header {
     padding: 10px 120px 60px;
 }
+h3 {
+    color: white;
+}
 
 a {
     text-decoration: none;
