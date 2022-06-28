@@ -8,6 +8,9 @@
 .first-container,
 .footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .second-container,
@@ -17,4 +20,23 @@
 
 .third-container {
     background-color: #e5e7eb;
+}
+
+.header {
+    padding: 10px 120px 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-left: 20px;
+
 }
