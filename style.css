@@ -1,7 +1,9 @@
-* {
+body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header,
@@ -23,7 +25,7 @@
 }
 
 .header {
-    padding: 10px 120px 60px;
+    padding: 0px 120px 60px;
     display: flex;
     justify-content: space-between;
 }
@@ -48,11 +50,13 @@ li {
 .first-container h1 {
     color: white;
     font-size: 40px;
+    margin: 0;
 }
 
 .first-container p {
     color: #e5e7eb;
     font-size: 15px;
+    margin: 0;
 }
 button {
     border-radius: 8px;
@@ -77,7 +81,7 @@ button {
 }
 
 .first-container {
-    padding: 10px 120px 60px;
+    padding: 0 120px 60px;
     display: flex;
 }
 
@@ -96,3 +100,4 @@ button {
     text-align: center;
     margin-bottom: 32px;
 }
+
