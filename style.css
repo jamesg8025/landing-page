@@ -45,7 +45,15 @@ li {
     margin-left: 20px;
 
 }
+.first-container h1 {
+    color: white;
+    font-size: 40px;
+}
 
+.first-container p {
+    color: #e5e7eb;
+    font-size: 15px;
+}
 button {
     border-radius: 8px;
     border: none;
@@ -79,6 +87,6 @@ button {
     margin-right: 40px;
 
 }
-.right-content {
+/* .right-content {
     display: flex;
-}
+} */
