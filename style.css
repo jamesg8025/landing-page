@@ -8,9 +8,9 @@
 .first-container,
 .footer {
     background-color: #1F2937;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
 }
 
 .second-container,
@@ -24,6 +24,8 @@
 
 .header {
     padding: 10px 120px 60px;
+    display: flex;
+    justify-content: space-between;
 }
 h3 {
     color: white;
@@ -42,4 +44,41 @@ ul {
 li {
     margin-left: 20px;
 
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.img-placeholder {
+    height: 150px;
+    width: 350px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-container {
+    padding: 10px 120px 60px;
+    display: flex;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+
+}
+.right-content {
+    display: flex;
 }
