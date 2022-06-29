@@ -84,6 +84,7 @@ button {
 .first-container {
     padding: 0 120px 60px;
     display: flex;
+    justify-content: center;
 }
 
 .left-content {
@@ -128,6 +129,10 @@ button {
     width: 120px;
     height: 175px;
 }
+
+/* .third-container {
+
+} */
 
 .footer {
     height: 60px;
