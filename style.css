@@ -102,6 +102,24 @@ button {
     margin-bottom: 32px;
 }
 
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.square {
+    border-radius: 8px;
+    border: 2px solid #3882F6;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.card {
+    width: 100px;
+    height: 175px;
+}
 
 .footer {
     height: 60px;
