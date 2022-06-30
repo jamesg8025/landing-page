@@ -59,7 +59,7 @@ li {
     font-size: 15px;
     margin: 0;
 }
-button {
+.first-container button {
     border-radius: 8px;
     border: none;
     width: 100px;
@@ -160,12 +160,53 @@ figcaption {
 }
 
 .inner-rectangle {
-    width: 600px;
+    width: 1155px;
     height: 100px;
     border-radius: 8px;
     background-color: #3882F6;
     display: flex;
-    
+
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 25px;
+}
+
+.inner-left-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.call {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 0;
+}
+
+.smaller-call {
+    color: white;
+    margin: 0;
+
+}
+
+.inner-right-content {
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* margin-right: 80px; */
+}
+
+.fourth-container button {
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    align-self: center;
+    /* margin-top: 40px; */
 }
 
 .footer {
