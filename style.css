@@ -130,9 +130,25 @@ button {
     height: 175px;
 }
 
-/* .third-container {
+.third-container {
+    padding: 30px 140px 50px;
+    display: flex;
+    justify-content: center;
+}
 
-} */
+blockquote {
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    color: #1F2937;
+    width: 600px;
+    height: auto;
+}
+
+figcaption {
+    font-weight: 600;
+    margin-left: 450px;
+}
 
 .footer {
     height: 60px;
